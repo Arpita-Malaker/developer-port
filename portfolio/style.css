@@ -1,0 +1,203 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    
+color: #181818;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+   
+}
+
+.head_title{
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 61px;
+align-items: center;
+}
+
+.orange{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    
+width: 100px;
+height: 40px;
+border-radius: 7px;
+border: none;
+color:white ;
+background-color: #FD6E0A;
+}
+
+.head_banner{
+    display: flex;
+    margin: 0 200px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+  
+}
+
+.contact{
+width: 100px;
+height: 40px;
+border-radius: 7px;
+margin-left: 30px;
+border: 2px solid #FD6E0A;
+color: #FD6E0A;
+background-color: transparent;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_me{
+    margin-top: 130px;
+    background-color:  #FFF8F3;
+    padding: 130px 169px;
+   
+}
+
+.about_title{
+    text-align: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 48px;
+margin-bottom: 30px;
+    
+}
+
+.about_description{
+    color: #757575;
+}
+
+.about_info_container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info_title{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+}
+
+.info_description{
+
+   font-weight: bold;
+    color: #353333;
+  
+}
+
+.skils{
+    
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 50px;
+
+
+}
+
+.skill-info{
+    display: flex;
+    gap: 24px;
+}
+
+.what_i_do{
+    margin-top: 130px;  
+
+}
+
+.what_i_do_title{
+    margin-top: 130px; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 130px;
+
+
+}
+
+.skils_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.resume-title{
+    text-align: center;
+    margin-top: 130px; 
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.education-title , .ex-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.resume-part{
+    display: flex;
+    gap:50px;
+}
+
+.education-des, .ex-des{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.last{
+    display: flex;
+    gap:24px;
+    background-color: #FFF8F3;
+    padding: 100px 130px;
+}
+
+.last-para{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-fill input, textarea, button{
+    margin-top: 24px;
+    border: none;
+}
+
